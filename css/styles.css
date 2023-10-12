@@ -552,10 +552,14 @@ card__body{
 
 .collapsible__chevron{
     transform: rotate(-90deg);
+    transition: transform 0.3s;
 }
 
 .collapsible__content{
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s;
 }
 
 .collapsible--expanded .collapsible__chevron{
@@ -563,5 +567,6 @@ card__body{
 }
 
 .collapsible--expanded .collapsible__chevron{
-    display: block;
+    max-height: 100vh;
+    opacity: 1;
 }
