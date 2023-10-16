@@ -9,22 +9,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 <body>
-   <section class="block container">
-    <header class="block__header">
-      <h2 class="block__heading">Heading</h2>
-      <p>Lorem ipsum dolor sit amet.
-      </p>  
+  <div class="collapsible collapsible--expanded">
+    <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item 1</h2>
+            <svg class="icon icon--primary collapsible__chevron">
+              <use xlink:href="/css/images/sprite.svg#chevron"></use>
+            </svg>
     </header>
-   </section>
-   <section class="block block__dark block--skewed--left">
-    <div class="container">
-      <h2 class="block__heading">Heading</h2>
-      <p>Lorem ipsum dolor sit amet.
-      </p>
-    </div>
-   </section>
+       <div class="collapsible__content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptate?
+      </div>
+   </div>
    <script src="js/main.js"></script>
 </body>
 </html>
