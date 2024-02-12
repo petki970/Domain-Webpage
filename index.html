@@ -1,380 +1,1032 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!DOCTYPE HTML>
+<html lang="sr-yu" dir="ltr"  data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"default"}'>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-    
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8" />
+	<base href="https://www.brezina.rs/o-nama.html" />
+	<meta name="generator" content="denode" />
+	<title>O nama - Kovačko-bravarska radnja &quot;Brezina&quot;</title>
+	<link href="/templates/brezina/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<script src="/media/jui/js/jquery.min.js?84a1d9b36da9fb0274e6343568409625"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?84a1d9b36da9fb0274e6343568409625"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?84a1d9b36da9fb0274e6343568409625"></script>
+	<script src="/media/jui/js/bootstrap.min.js?84a1d9b36da9fb0274e6343568409625"></script>
+	<script src="/media/widgetkit/uikit2-c56f3283.js"></script>
+	<script src="/media/widgetkit/wk-scripts-dca283ac.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon-precomposed" href="/templates/brezina/apple_touch_icon.png">
+<link rel="stylesheet" href="/templates/brezina/css/bootstrap.css">
+<link rel="stylesheet" href="/templates/brezina/css/theme.css">
+<link rel="stylesheet" href="/templates/brezina/css/shortcodes.css">
+<link rel="stylesheet" href="/templates/brezina/css/custom.css">
+<script src="/templates/brezina/warp/vendor/uikit/js/uikit.js"></script>
+<script src="/templates/brezina/warp/vendor/uikit/js/components/autocomplete.js"></script>
+<script src="/templates/brezina/warp/vendor/uikit/js/components/search.js"></script>
+<script src="/templates/brezina/warp/vendor/uikit/js/components/tooltip.js"></script>
+<script src="/templates/brezina/warp/vendor/uikit/js/components/sticky.js"></script>
+<script src="/templates/brezina/js/theme.js"></script>
 </head>
-<body>
-    <header>
-        <nav class="nav collapsible ">
-            <a class="nav__brand" href="/"><img src="css/images/logo.svg"> </a>
-            <svg class="icon icon--white nav__toggler">
-              <use xlink:href="/css/images/sprite.svg#menu"></use>
-            </svg>
-            <ul class="list nav__list collapsible__content">
-              <li class="nav__item"><a href="#">Hosting</a></li>
-              <li class="nav__item"><a href="#">VPS</a>
-              <li class="nav__item"><a href="#">Domain</a></li>
-              <li class="nav__item"><a href="#">Pricing</a></li>
-            </ul>
-          </nav>
-    </header>
-    <section class="block block__dark block--skewed--left hero">
-        <div class="container grid grid--1x2">
-          <header class=" block__header hero__content">
-            <h1 class="block__heading">Cloud Hosting for Pros</h1>
-            <p class="hero__tagline">Deploy your websites in less than 60 seconds.</p>
-            <a href="" class="btn btn--accent btn--stretched">Get started</a>
-          </header>
-            <picture>
-              <source 
-              type="image/png"  
-              srcset="images/banner.png 1x, images/banner@2x.png 2x"
-              />
-              <img class="hero__image" src="css/images/banner.png" alt="">
-            </picture>
-        </div>
-      </section>
-      <section class="block container block-domain">
-        <header class="block__header">
-          <h2>Starting at $9 per month</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quos eius eaque quidem recusandae dolores!</p>
-        </header>
-        <div class="input-group">  
-          <input type="text" class="input" placeholder="Enter domain name here...">
-          <button class="btn btn--accent">
-            <svg class="icon icon--white">
-            <use xlink:href="/css/images/sprite.svg#search"></use>
-          </svg>Search</button>
-        </div>
-        <ul class="list block-domain__prices">
-          <li><span class="badge badge--secondary">.com $9</span></li>
-          <li>.sg $10</li>
-          <li>.space $11</li>
-          <li>.info $14</li>
-          <li>.net $10</li>
-          <li>.xyz $10</li>
-        </ul>
-      </section>
-      <section class="block container block-plans">
-        <div class="grid grid--1x3"> 
-               <div class="plan">
-                   <div class="card card--secondary">
-                       <header class="card__header">
-                               <h3 class="plan__name">Entry</h3>
-                               <span class="plan__price">$14</span>
-                               <span class="plan__billing-cycle">/month</span>
-                               <span class="badge badge--secondary badge--small">10% OFF</span>
-                               <span class="plan__description">Easy start on the cloud</span>
-                       </header>
-                       <div class="card__body"><ul class="list list--tick">
-                           <li class="list__item">Unlimited Websites</li>
-                           <li class="list__item">Unlimited Bandwidth</li>
-                           <li class="list__item">100 GB SSD Storage</li>
-                           <li class="list__item">3 GB RAM</li>
-                       </ul>
-                           <button class="btn btn--outline btn--block">BUY NOW</button>
-                       </div>
-                   </div>
-               </div>
-               <div class="plan plan--popular">
-                   <div class="card card--primary">
-                       <header class="card__header">
-                               <h3 class="plan__name">Entry</h3>
-                               <span class="plan__price">$14</span>
-                               <span class="plan__billing-cycle">/month</span>
-                               <span class="badge badge--secondary badge--small">10% OFF</span>
-                               <span class="plan__description">Easy start on the cloud</span>
-                       </header>
-                       <div class="card__body"><ul class="list list--tick">
-                           <li class="list__item">Unlimited Websites</li>
-                           <li class="list__item">Unlimited Bandwidth</li>
-                           <li class="list__item">100 GB SSD Storage</li>
-                           <li class="list__item">3 GB RAM</li>
-                       </ul>
-                           <button class="btn btn--outline btn--block">BUY NOW</button>
-                       </div>
-                   </div>
-               </div>
-               <div class="plan">
-                   <div class="card card--secondary">
-                       <header class="card__header">
-                               <h3 class="plan__name">Entry</h3>
-                               <span class="plan__price">$14</span>
-                               <span class="plan__billing-cycle">/month</span>
-                               <span class="badge badge--secondary badge--small">10% OFF</span>
-                               <span class="plan__description">Easy start on the cloud</span>
-                       </header>
-                       <div class="card__body"><ul class="list list--tick">
-                           <li class="list__item">Unlimited Websites</li>
-                           <li class="list__item">Unlimited Bandwidth</li>
-                           <li class="list__item">100 GB SSD Storage</li>
-                           <li class="list__item">3 GB RAM</li>
-                       </ul>
-                           <button class="btn btn--outline btn--block">BUY NOW</button>
-                       </div>
-                   </div>
-               </div>
-        </div>
-    </section>
 
-    <section class="block container">
-      <header class="block__header">
-          <h2>Host on the cloud to keep growing</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-      </header>
-      <article class="grid grid--1x2 feature">
-          <div class="feature__content">
-              <span class="icon-container">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="/css/images/sprite.svg#easy"></use>
-                  </svg>
-                </span>
-                <h3 class="feature__heading">Super Easy to Use</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugit dolore enim tenetur odio tempore eius nihil et molestias voluptatem!</p>
-                <a href="#" class="link-arrow">Learn More</a>
-          </div>
-          <picture>
-              <source type="image/webp" srcset="/css/images/easy.webp 1x, images/easy@2x.webp 2x">
-              <source type="image/jpg" srcset="/css/images/easy.jpg 1x, images/easy@2x.jpg 2x">
-              <img class="feature__image" src="/css/images/easy@2x.jpg" alt="">
-          </picture>
-      </article>
-  
-      <article class="grid grid--1x2 feature">
-          <div class="feature__content">
-              <span class="icon-container">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="/css/images/sprite.svg#easy"></use>
-                  </svg>
-                </span>
-                <h3 class="feature__heading">Simply Fast Websites</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugit dolore enim tenetur odio tempore eius nihil et molestias voluptatem!</p>
-                <a href="#" class="link-arrow">Learn More</a>
-          </div>
-          <picture>
-              <source type="image/webp" srcset="/css/images/fast.webp 1x, images/fast@2x.webp 2x">
-              <source type="image/jpg" srcset="/css/images/fast.jpg 1x, images/fast@2x.jpg 2x">
-              <img class="feature__image" src="/css/images/easy@2x.jpg" alt="">
-          </picture>
-      </article>
-  
-      <article class="grid grid--1x2 feature">
-          <div class="feature__content">
-              <span class="icon-container">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="/css/images/sprite.svg#easy"></use>
-                  </svg>
-                </span>
-                <h3 class="feature__heading">Wordpress Made Easy</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugit dolore enim tenetur odio tempore eius nihil et molestias voluptatem!</p>
-                <a href="#" class="link-arrow">Learn More</a>
-          </div>
-          <picture>
-              <source type="image/webp" srcset="/css/images/wordpress.webp 1x, images/wordpress@2x.webp 2x">
-              <source type="image/jpg" srcset="/css/images/wordpress.jpg 1x, images/wordpress@2x.jpg 2x">
-              <img class="feature__image" src="/css/images/easy@2x.jpg" alt="">
-          </picture>
-      </article>
-  
-          <article class="grid grid--1x2 feature">
-              <div class="feature__content">
-                  <span class="icon-container">
-                      <svg class="icon icon--primary">
-                        <use xlink:href="/css/images/sprite.svg#easy"></use>
-                      </svg>
-                    </span>
-                    <h3 class="feature__heading">24/7 Expert Support</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugit dolore enim tenetur odio tempore eius nihil et molestias voluptatem!</p>
-                    <a href="#" class="link-arrow">Learn More</a>
-              </div>
-          <picture>
-              <source type="image/webp" srcset="/css/images/support.webp 1x, images/support@2x.webp 2x">
-              <source type="image/jpg" srcset="/css/images/support.jpg 1x, images/support@2x.jpg 2x">
-              <img class="feature__image" src="/css/images/easy@2x.jpg" alt="">
-          </picture>
-      </article>
-  </section>
+<body class="tm-isblog">
 
-  <section class="block block__dark block--skewed--right .block-showcase">
-    <header class="block__header">
-        <h2>User-Friendly Control Panel</h2>
-    </header>
-    <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
-            <source type="image/webp" srcset="css/images/ipad.webp 1x, css/images/ipad@2x.webp">
-            <source type="image/png" srcset="css/images/ipad.png 1x, css/images/ipad@2x.png">
-            <img  src="css/images/ipad.webp" alt="">
-        </picture>
-        <ul class="list">
-            <li>
-                <div class="media">
-                    <div class="media__image">
-                            <svg class="icon icon--primary">
-                              <use xlink:href="css/images/sprite.svg"></use>
-                            </svg>
+        <div class="tm-toolbar uk-visible-large">
+        <div class="uk-container uk-container-center uk-clearfix">
+
+                        <div class="uk-float-left"><div class="uk-panel">
+	<div>
+<span class="de-link"><a href="tel:381637428177"><i class="uk-icon-phone"></i>+381 (0)63 74 28 177</a> (Viber)</span>
+<span class="de-link"><a href="mailto:kbrbrezina@gmail.com"><i class="uk-icon-envelope-o"></i><span id="cloak76ede334ee09a84e7196c1c4f7ffaffb">Ova adresa el. pošte je zaštićena od spambotova. Omogućite JavaScript da biste je videli.</span><script type='text/javascript'>
+				document.getElementById('cloak76ede334ee09a84e7196c1c4f7ffaffb').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy76ede334ee09a84e7196c1c4f7ffaffb = 'kbrbr&#101;z&#105;n&#97;' + '&#64;';
+				addy76ede334ee09a84e7196c1c4f7ffaffb = addy76ede334ee09a84e7196c1c4f7ffaffb + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				var addy_text76ede334ee09a84e7196c1c4f7ffaffb = 'kbrbr&#101;z&#105;n&#97;' + '&#64;' + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';document.getElementById('cloak76ede334ee09a84e7196c1c4f7ffaffb').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy76ede334ee09a84e7196c1c4f7ffaffb + '\'>'+addy_text76ede334ee09a84e7196c1c4f7ffaffb+'<\/a>';
+		</script></a></span>
+</div></div></div>
+            
+                        <div class="uk-float-right"><div class="uk-panel">
+	<div class="de-crm">
+<a class="uk-button uk-button-primary uk-button-mini" href="/sr">SRB</a>
+<a class="uk-button uk-button-primary uk-button-mini" href="#">ENG</a>
+</div></div></div>
                     </div>
-                    <div class="media__body">
-                        <h3 class="media__title">Easy Start & Managed Updates</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore vero reprehenderit neque nulla sint ipsum repudiandae explicabo quos. Sequi.</p>
-                    </div>
-                   </div>
-            </li>
-            <li>
-                <div class="media">
-                    <div class="media__image">
-                            <svg class="icon icon--primary">
-                              <use xlink:href="css/images/sprite.svg"></use>
-                            </svg>
-                    </div>
-                    <div class="media__body">
-                        <h3 class="media__title">Staging, GIT & WP-CLI</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore vero reprehenderit neque nulla sint ipsum repudiandae explicabo quos. Sequi.</p>
-                    </div>
-                   </div>
-            </li>
-            <li>
-                <div class="media">
-                    <div class="media__image">
-                            <svg class="icon icon--primary">
-                              <use xlink:href="css/images/wordpress.svg"></use>
-                            </svg>
-                    </div>
-                    <div class="media__body">
-                        <h3 class="media__title">Dynamic Caching & More</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis?</p>
-                    </div>
-                   </div>
-            </li>
-        </ul>
     </div>
+    
+        <div class="tm-navbar" data-uk-sticky="{media: 768}" >
+
+        <div class="uk-navbar">
+    <div class="tm-headerbar tm-headerbar-default uk-container uk-container-center uk-flex uk-flex-space-between">
+        <div class="uk-flex uk-flex-middle">
+
+                        <a class="tm-logo uk-visible-large" href="https://www.brezina.rs">
+	<img src="/images/logo.png" width="227" height="70" alt="KBR Brezina"></a>
+            
+                        <a class="tm-logo-small uk-hidden-large" href="https://www.brezina.rs">
+	<img src="/images/logo_small.png" width="129" height="40" alt="KBR Brezina" class="uk-responsive-height"></a>
+            
+        </div>
+
+
+                            <div class="uk-flex uk-flex-middle uk-flex-right">
+                                            <nav class="uk-visible-large">
+                        <ul class="uk-navbar-nav uk-hidden-small">
+<li><a href="/">Naslovna</a></li><li class="uk-active"><a href="/o-nama.html" class="uk-navbar-nav-subtitle">O nama<div>RADIONICA</div></a></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="#" class="uk-navbar-nav-subtitle">Proizvodni<div>PROGRAM</div></a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1" style="min-width: 300px; max-width: 300px; width:300px;"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/proizvodni-program/silosi-i-silosna-oprema.html">Silosi i silosna oprema</a></li><li><a href="/proizvodni-program/podna-skladista-i-hale.html">Podna skladišta / Hale</a></li><li><a href="/proizvodni-program/kovane-ograde-gelenderi-i-terase.html">Kovane ograde, gelenderi i terase</a></li><li><a href="/proizvodni-program/kotlovi-za-centralno-grejanje-na-cvrsta-goriva-i-pelet.html">Kotlovi za centralno grejanje na čvrsta goriva i pelet</a></li><li><a href="/proizvodni-program/alkoholni-gorionici.html">Alkoholni gorionici</a></li><li><a href="/proizvodni-program/spremnici-za-drva.html">Spremnici za drva</a></li></ul></div></div></div></li><li><a href="/usluzni-program.html" class="uk-navbar-nav-subtitle">Uslužni<div>PROGRAM</div></a></li><li><a href="/galerija.html">Galerija</a></li><li><a href="/kontakt.html">Kontakt</a></li></ul>                        </nav>
+                    
+                                    </div>
+
+                                    <a href="#offcanvas" class="uk-navbar-toggle uk-hidden-large" data-uk-offcanvas></a>
+                                </div>
+</div>
+
+    </div>
+        <div class="uk-container-center">
+    
+        <section id="tm-top-a" class="tm-top-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+<div class="uk-width-1-1"><div class="uk-panel">
+<div data-uk-slideshow="{}">
+
+    <div class="uk-position-relative">
+
+        <ul class="uk-slideshow">
+        
+            <li style="min-height: 300px;">
+
+                
+                    <img src="/media/widgetkit/header-radionica-d43575eb97c847990515de0a3a6e88aa.jpg" alt="Radionica" width="1920" height="450">
+                    
+                    
+                    
+                
+            </li>
+
+                </ul>
+
+        
+        
+    </div>
+
+    
+</div>
+</div></div>
 </section>
+    
+        </div>
 
-<section>
-  <header class="block__header">
-      <h2>What our customers are Saying</h2>
-      <p>Lorem ipsum dolor sit amet.</p>
-  </header>
-  <div class="container">
-      <div class="card testimonial">
-          <div class="grid grid--1x2">
-                  <div class="testimonial__image">
-                  <img src="/css/images/testimonial.jpg" alt="A happy, smiling customer">
-                  <span class="icon-container icon-container--accent">
-                      <svg class="icon icon--white icon--small">
-                        <use xlink:href="/css/images/sprite.svg#quotes"></use>
-                      </svg>
-                    </span>
-                  </div>
-              <div>
-                  <blockquote class="quote">
-                      <p class="quote__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perspiciatis delectus iure eum facilis! Aliquid dolorem omnis harum! Dicta inventore nobis molestiae explicabo magni repellendus reprehenderit veritatis? Expedita, maiores distinctio? </p>
-                     <footer>
-                      <div class="media">
-                          <div class="media__image">
-                                  <svg class="icon icon--primary  quote__line">
-                                    <use xlink:href="css/images/sprite.svg#line"></use>
-                                  </svg>
-                          </div>
-                          <div class="media__body">
-                              <h3 class="media__title quote__author">John Smith</h3>
-                              <p class="quote__organization">ABC Company</p>
-                          </div>
-                         </div>
-                     </footer>
-                  </blockquote>
-              </div>
-          </div>
-         </div>
-  </div>
+    <div class="uk-container uk-container-center">
+    
+    
+        <div id="tm-main" class="uk-grid" data-uk-grid-match data-uk-grid-margin>
+
+                <div class="tm-main uk-width-large-1-1 uk-flex-order-last">
+
+            
+                        <main id="tm-content" class="tm-content">
+
+                <div id="system-message-container">
+</div>
+
+
+<article class="uk-article tm-article  " >
+
+	
+	<div class="tm-article-container ">
+
+        		<div class="uk-text-center uk-margin-bottom-remove">
+
+			
+					    <h1 class="uk-article-title uk-margin-top-remove">
+		    	<span class="de-background">
+                                    O nama                                </span>
+            </h1>
+			
+			
+			
+		</div>
+		
+		
+					
+<div class="de-box">
+
+<div id="wk-grid876" class="uk-grid-width-1-1 uk-grid uk-grid-match uk-text-left " data-uk-grid-match="{target:'> div > .uk-panel', row:true}" data-uk-grid-margin  data-uk-scrollspy="{cls:'uk-animation-scale-up uk-invisible', target:'> div > .uk-panel', delay:300}">
+
+
+    <div>
+        <div class="uk-panel uk-panel-box uk-panel-box-primary uk-invisible">
+
+            
+            
+            
+                        <div class="uk-grid uk-flex-middle" data-uk-grid-margin>
+                <div class="uk-width-medium-1-2">
+                    <img src="/images/banners/radionica.jpg" class=" uk-overlay-spin" alt="Radionica" width="1200" height="900">                </div>
+                <div class="uk-width-medium-1-2">
+                    <div class="uk-panel">
+            
+                        <h3 class="uk-panel-title">
+
+                                    Radionica                
+                
+            </h3>
+            
+            
+            
+                        <div class="uk-margin"><p>Radionica je počela sa radom 2000. godine. Naša osnovna delatnost je proizvodnja kotlova za centralno grejanje na čvrsta goriva kao i alkoholnih gorionika i spremnika za drvo.</p> 
+<p>Takođe nudimo i uslužne delatnosti probijanje, savijanje, sečenje, rolovanje lima kao i rezanje na CNC plazmi.</p></div>
+            
+            
+            
+                                </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+(function($){
+
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.uk-overlay-panel)', $('#wk-grid876')).each(function() {
+
+        var $img = $(this);
+
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+
+        var $canvas = $('<canvas class="uk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+
+        $img.css('display', 'none').after($canvas);
+
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+
+        img.src = this.src;
+
+    });
+
+})(jQuery);
+</script>
+</div>
+<div style="padding-top: 30px;">
+
+<div id="wk-grid63e" class="uk-grid-width-1-2 uk-grid-width-medium-1-5 " data-uk-grid="{gutter: '10 10'}"  data-uk-scrollspy="{cls:'uk-animation-scale-up uk-invisible', target:'> div > .uk-panel', delay:300}">
+
+    
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_01-78bf746c49091fec9ea27eb4f6e26099.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_01.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_02-752bf0a732e39e507c0231408d537935.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_02.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_03-4dfe452943bf2b86d2dce4e02a782b55.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_03.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_04-f1cc6f8ce0399a52ddb72f792c2a69ca.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_04.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_05-942c2dd821d13bf3a3c5541f72307194.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_05.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_06-c79d13cc1558b196617e1d8bfd991242.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_06.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_07-5ce50bed91973767d23da11e1e4bc998.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_07.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_08-28dc62031c86962d492a47e212d51707.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_08.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_09-6802f9c711a0eb2672382c750fc57482.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_09.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_10-4bac0054fac339ce6ea987c87066221a.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_10.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_11-b04760a43fed157593a923d69064807c.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_11.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_12-4cc69f0dc0c455b9bd2e7db3a30d16a6.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_12.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_13-07bd605211198b577e0a322a7c80d254.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_13.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_14-4b2e8dd391dc2eb6ed3afd0669e9590a.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_14.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <figure class="uk-overlay uk-overlay-hover ">
+
+        <img src="/media/widgetkit/Radionica_15-99dbac75554650a5a3f7cd424010c382.jpg" class="uk-overlay-scale" alt="Radionica" width="500" height="500">
+                <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div>
+        
+        <div class="uk-overlay-panel uk-ignore uk-flex uk-flex-center uk-flex-middle uk-text-center">
+            <div>
+
+                
+                
+                                <div class="uk-grid uk-grid-small uk-flex-center uk-margin" data-uk-grid-margin>
+
+                    
+                                        <div><a class="uk-icon-large uk-icon-expand" href="/images/widgetkit/radionica/Radionica_15.jpg" data-lightbox-type="image" data-uk-lightbox="{group:'.wk-263e'}" title="Radionica"></a></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </figure>
+
+</div>
+    </div>
+
+    
+</div>
+
+
+<script>
+(function($){
+
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.uk-overlay-panel)', $('#wk-grid63e')).each(function() {
+
+        var $img = $(this);
+
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+
+        var $canvas = $('<canvas class="uk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+
+        $img.css('display', 'none').after($canvas);
+
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+
+        img.src = this.src;
+
+    });
+
+})(jQuery);
+</script>
+</div> 		
+		
+		
+		
+		
+		
+		
+	</div>
+
+	
+</article>
+
+            </main>
+            
+                    </div>
+    
+        
+                        
+    </div>
+    
+    
+        </div>
+
+    
+        <div id="de-block-bootom-d" class="de-block-bootom-d">
+    <div class="uk-container-center"> 
+        <section id="tm-bottom-d" class="tm-bottom-d uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+<div class="uk-width-1-1"><div class="uk-panel">
+<div class="uk-position-relative " data-uk-slider="{}">
+
+    <div class="uk-slider-container">
+        <ul class="uk-slider uk-grid uk-grid-match uk-flex-center uk-grid-width-1-1 uk-grid-width-medium-1-6 uk-grid-collapse">
+        
+            <li>
+
+                <div class="uk-panel uk-overlay uk-overlay-hover uk-cover-background" style="height: 300px;background-image: url('/images/headers/header-silosi_04.jpg');">
+
+                    
+                                        <div class="uk-overlay-panel uk-overlay-background uk-overlay-slide-top"></div>
+                    
+                    <div class="uk-overlay-panel uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+
+                                                        <h3 class="uk-h5 uk-margin-top-remove uk-margin-top-remove">
+
+                                                                    <a class="uk-link-reset" href="/proizvodni-program/silosi-i-silosna-oprema.html">Silosi i silosna oprema</a>
+                                
+                            </h3>
+                            
+                            
+                            
+                        </div>
+                    </div>
+
+                                        <a class="uk-position-cover" href="/proizvodni-program/silosi-i-silosna-oprema.html"></a>
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-overlay uk-overlay-hover uk-cover-background" style="height: 300px;background-image: url('/images/headers/header-hale.jpg');">
+
+                    
+                                        <div class="uk-overlay-panel uk-overlay-background uk-overlay-slide-top"></div>
+                    
+                    <div class="uk-overlay-panel uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+
+                                                        <h3 class="uk-h5 uk-margin-top-remove uk-margin-top-remove">
+
+                                                                    <a class="uk-link-reset" href="/proizvodni-program/podna-skladista-i-hale.html">Podna skladišta i hale</a>
+                                
+                            </h3>
+                            
+                            
+                            
+                        </div>
+                    </div>
+
+                                        <a class="uk-position-cover" href="/proizvodni-program/podna-skladista-i-hale.html"></a>
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-overlay uk-overlay-hover uk-cover-background" style="height: 300px;background-image: url('/images/headers/header-ograde.jpg');">
+
+                    
+                                        <div class="uk-overlay-panel uk-overlay-background uk-overlay-slide-top"></div>
+                    
+                    <div class="uk-overlay-panel uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+
+                                                        <h3 class="uk-h5 uk-margin-top-remove uk-margin-top-remove">
+
+                                                                    <a class="uk-link-reset" href="/proizvodni-program/kovane-ograde-gelenderi-i-terase.html">Kovane ograde, gelenderi i terase</a>
+                                
+                            </h3>
+                            
+                            
+                            
+                        </div>
+                    </div>
+
+                                        <a class="uk-position-cover" href="/proizvodni-program/kovane-ograde-gelenderi-i-terase.html"></a>
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-overlay uk-overlay-hover uk-cover-background" style="height: 300px;background-image: url('/images/headers/header-grejanje.jpg');">
+
+                    
+                                        <div class="uk-overlay-panel uk-overlay-background uk-overlay-slide-top"></div>
+                    
+                    <div class="uk-overlay-panel uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+
+                                                        <h3 class="uk-h5 uk-margin-top-remove uk-margin-top-remove">
+
+                                                                    <a class="uk-link-reset" href="/proizvodni-program/kotlovi-za-centralno-grejanje-na-cvrsta-goriva-i-pelet.html">Kotlovi za centralno grejanje na čvrsta goriva</a>
+                                
+                            </h3>
+                            
+                            
+                            
+                        </div>
+                    </div>
+
+                                        <a class="uk-position-cover" href="/proizvodni-program/kotlovi-za-centralno-grejanje-na-cvrsta-goriva-i-pelet.html"></a>
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-overlay uk-overlay-hover uk-cover-background" style="height: 300px;background-image: url('/images/headers/header-gorionici.jpg');">
+
+                    
+                                        <div class="uk-overlay-panel uk-overlay-background uk-overlay-slide-top"></div>
+                    
+                    <div class="uk-overlay-panel uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+
+                                                        <h3 class="uk-h5 uk-margin-top-remove uk-margin-top-remove">
+
+                                                                    <a class="uk-link-reset" href="/proizvodni-program/alkoholni-gorionici.html">Alkoholni gorionici</a>
+                                
+                            </h3>
+                            
+                            
+                            
+                        </div>
+                    </div>
+
+                                        <a class="uk-position-cover" href="/proizvodni-program/alkoholni-gorionici.html"></a>
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-overlay uk-overlay-hover uk-cover-background" style="height: 300px;background-image: url('/images/headers/header-spremnici-za-drva.jpg');">
+
+                    
+                                        <div class="uk-overlay-panel uk-overlay-background uk-overlay-slide-top"></div>
+                    
+                    <div class="uk-overlay-panel uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+
+                                                        <h3 class="uk-h5 uk-margin-top-remove uk-margin-top-remove">
+                         <a class="uk-link-reset" href="/proizvodni-program/spremnici-za-drva.html">Spremnici za drva</a>    
+                            </h3>  
+                        </div>
+                    </div>
+                                        <a class="uk-position-cover" href="/proizvodni-program/spremnici-za-drva.html"></a>                   
+                </div>
+            </li>
+            <li>
+
+                <div class="uk-panel uk-overlay uk-overlay-hover uk-cover-background" style="height: 300px;background-image: url('/images/headers/header-radionica.jpg');">
+
+                    
+                                        <div class="uk-overlay-panel uk-overlay-background uk-overlay-slide-top"></div>
+                    
+                    <div class="uk-overlay-panel uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+
+                                                        <h3 class="uk-h5 uk-margin-top-remove uk-margin-top-remove">
+
+                                                                    <a class="uk-link-reset" href="/o-nama.html">O nama / radionica</a>
+                                
+                            </h3>
+                            
+                            
+                            
+                        </div>
+                    </div>
+
+                                        <a class="uk-position-cover" href="/o-nama.html"></a>
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-overlay uk-overlay-hover uk-cover-background" style="height: 300px;background-image: url('/images/headers/header-usluge.jpg');">
+
+                    
+                                        <div class="uk-overlay-panel uk-overlay-background uk-overlay-slide-top"></div>
+                    
+                    <div class="uk-overlay-panel uk-overlay-slide-top uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+ <h3 class="uk-h5 uk-margin-top-remove uk-margin-top-remove">
+ <a class="uk-link-reset" href="/usluzni-program.html">Uslužni program</a>
+                                
+                            </h3>
+                        </div>
+                      </div> 
+                      <a class="uk-position-cover" href="/usluzni-program.html"></a>
+                    </div>
+            </li>
+                </ul>
+    </div>
+        <div class="uk-position-top-right uk-margin uk-margin-left uk-margin-right">
+        <div class="uk-grid uk-grid-small">
+            <div><a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a></div>
+            <div><a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a></div>
+        </div>
+    </div>
+    
+</div>
+</div></div>
 </section>
+    </div>
+    </div>
+        <div id="tm-block-breadcrumbs" class="tm-block-breadcrumbs">
+    <div class="uk-container uk-container-center">   
+        <ul class="uk-breadcrumb"><li><a href="/">Naslovna stranica</a></li><li class="uk-active"><span>O nama</span></li></ul>
+    </div>
+    </div>
+    
+    
+    <footer id="tm-footer" class="tm-footer uk-position-relative ">
+    <div class="uk-container uk-container-center">
+        <div class="uk-flex uk-flex-middle uk-flex-space-between uk-text-center-small">
+            <div class="tm-footer-left">
+                <div class="uk-panel">
+	&copy; <script>document.write(new Date().getFullYear())</script> <a href="https://www.brezina.rs">Kovačko bravarska radnja "Brezina"</a><br/>
+Adresa: <a href="/kontakt.html">Novo naselje 6b, Padina, R.Srbija</a><br/>
+Telefoni: <a href="tel:+38113668102">+381 (0)13 668 102</a> ; <a href="tel:+381637428177">+381 (0)63 7 428 177</a> ; <a href="tel:+38166 6681022">+381 (0)66 668 102 2</a><br/>
+Email: <span id="cloak574544ff267238ae50909719b79803b8">Ova adresa el. pošte je zaštićena od spambotova. Omogućite JavaScript da biste je videli.</span><script type='text/javascript'>
+				document.getElementById('cloak574544ff267238ae50909719b79803b8').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addy574544ff267238ae50909719b79803b8 = 'kbrbr&#101;z&#105;n&#97;' + '&#64;';
+				addy574544ff267238ae50909719b79803b8 = addy574544ff267238ae50909719b79803b8 + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';
+				var addy_text574544ff267238ae50909719b79803b8 = 'kbrbr&#101;z&#105;n&#97;' + '&#64;' + 'gm&#97;&#105;l' + '&#46;' + 'c&#111;m';document.getElementById('cloak574544ff267238ae50909719b79803b8').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy574544ff267238ae50909719b79803b8 + '\'>'+addy_text574544ff267238ae50909719b79803b8+'<\/a>';
+		</script></div>                            </div>
 
-<div class="callout callout--primary">
-  <div class="grid grid--1x2">
-      <div class="callout__content">
-          <h2 class="callout__heading">Ready to get Started?</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam natus unde quisquam doloremque eius non eum explicabo totam! Quos, velit!</p>
-      </div>
-      <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
-  </div>
- </div>
+                        <a class="tm-totop-scroller" data-uk-smooth-scroll href="#"></a>
+            
+            <div class="tm-footer-right">
+                            </div>
 
- <footer class="block block--dark footer">
-  <div class="container grid footer__sections">
-      <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
-              <h2 class="collapsible__heading footer__heading">PRODUCTS</h2>
-                  <svg class="icon icon--primary collapsible__chevron">
-                    <use xlink:href="/css/images/sprite.svg#chevron"></use>
-                  </svg>
-          </header>
-             <div class="collapsible__content">
-              <ul class="list">
-                  <li><a href="#">Website Hosting</a></li>
-                  <li><a href="#">Free automated</a></li>
-                  <li><a href="#">Wordpress</a></li>
-                  <li><a href="#">Migrations</a></li>
-              </ul>
-            </div>
-      </section>
-      <section class="collapsible footer__section">
-          <header class="collapsible__header">
-              <h2 class="collapsible__heading footer__heading">COMPANY</h2>
-                  <svg class="icon icon--primary collapsible__chevron">
-                    <use xlink:href="/css/images/sprite.svg#chevron"></use>
-                  </svg>
-          </header>
-             <div class="collapsible__content">
-              <ul class="list">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Affilliates</a></li>
-                  <li><a href="#">Blog</a></li>
-              </ul>
-            </div>
-      </section>
-      <section class="collapsible footer__section">
-          <header class="collapsible__header">
-              <h2 class="collapsible__heading footer__heading">SUPPORT</h2>
-                  <svg class="icon icon--primary collapsible__chevron">
-                    <use xlink:href="/css/images/sprite.svg#chevron"></use>
-                  </svg>
-          </header>
-             <div class="collapsible__content">
-              <ul class="list">
-                  <li><a href="#">Contract</a></li>
-                  <li><a href="#">Knowlege Base</a></li>
-                  <li><a href="#">FAQ</a></li>
-              </ul>
-            </div>
-      </section>
-      <section class="collapsible footer__section">
-          <header class="collapsible__header">
-              <h2 class="collapsible__heading footer__heading">DOMAINS</h2>
-                  <svg class="icon icon--primary collapsible__chevron">
-                    <use xlink:href="/css/images/sprite.svg#chevron"></use>
-                  </svg>
-          </header>
-             <div class="collapsible__content">
-              <ul class="list">
-                  <li><a href="#">Domain Checker</a></li>
-                  <li><a href="#">Domain Transfer</a></li>
-                  <li><a href="#">Free Domain</a></li>
-              </ul>
-            </div>
-      </section>
-      <section class="footer__brand">
-          <img src="css/images/logo.svg" alt="">
-          <p class="footer__copyright"> Copyright 2023 Daniel Petras</p>
-      </section>
-  </div>
-</footer>
-    <script src="js/main.js"></script>
+            
+        </div>
+    </div>
+    </footer>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93852227-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-93852227-1');
+</script>
+        <div id="offcanvas" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-flip"><ul class="uk-nav uk-nav-offcanvas">
+<li><a href="/">Naslovna</a></li><li class="uk-active"><a href="/o-nama.html">O nama<div>RADIONICA</div></a></li><li class="uk-parent"><a href="#">Proizvodni<div>PROGRAM</div></a>
+<ul class="uk-nav-sub"><li><a href="/proizvodni-program/silosi-i-silosna-oprema.html">Silosi i silosna oprema</a></li><li><a href="/proizvodni-program/podna-skladista-i-hale.html">Podna skladišta / Hale</a></li><li><a href="/proizvodni-program/kovane-ograde-gelenderi-i-terase.html">Kovane ograde, gelenderi i terase</a></li><li><a href="/proizvodni-program/kotlovi-za-centralno-grejanje-na-cvrsta-goriva-i-pelet.html">Kotlovi za centralno grejanje na čvrsta goriva i pelet</a></li><li><a href="/proizvodni-program/alkoholni-gorionici.html">Alkoholni gorionici</a></li><li><a href="/proizvodni-program/spremnici-za-drva.html">Spremnici za drva</a></li></ul></li><li><a href="/usluzni-program.html">Uslužni<div>PROGRAM</div></a></li><li><a href="/galerija.html">Galerija</a></li><li><a href="/kontakt.html">Kontakt</a></li></ul></div>
+    </div>
+    
 </body>
 </html>
